@@ -1,5 +1,5 @@
 # VVLP-Hedeby-Chest
-A simple VR experience surrounding the Hedeby chest for Team VR Project (I)
+A simple VR experience surrounding the Hedeby chest for the Team VR Projects
 
 As of 6-22-2023 several objects are stand in models created in Unity as placeholders for proof of concept
 - bedroll based off experimental archaeology bedroll from https://www.youtube.com/watch?v=QBMD6dAMMro&ab_channel=HandsOnHistory
