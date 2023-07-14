@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12729266, g: 0.13414232, b: 0.12114291, a: 1}
+  m_IndirectSpecularColor: {r: 0.15485005, g: 0.17665155, b: 0.18876904, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -129,7 +129,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 277399949}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2046578755678643520, guid: 3fd6c362c07914b8e93cf7eac9bb8ea4,
         type: 3}
@@ -193,53 +193,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fd6c362c07914b8e93cf7eac9bb8ea4, type: 3}
---- !u!1 &277399948
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 277399949}
-  m_Layer: 0
-  m_Name: == DYNAMIC ==
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &277399949
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277399948}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 476427106}
-  - {fileID: 1636572264}
-  - {fileID: 1375737371}
-  - {fileID: 1964602100}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &476427106 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2046578755678643521, guid: 3fd6c362c07914b8e93cf7eac9bb8ea4,
-    type: 3}
-  m_PrefabInstance: {fileID: 252940119}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &815550928
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 277399949}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 917687146545359264, guid: 6adbf14cd2c714afd8f26a326e2437fd,
         type: 3}
@@ -308,7 +267,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 277399949}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 658893750924174764, guid: 459e1f4e4618d411fb7c40e7ff33792f,
         type: 3}
@@ -377,24 +336,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 459e1f4e4618d411fb7c40e7ff33792f, type: 3}
---- !u!4 &1375737371 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 917687146545359267, guid: 6adbf14cd2c714afd8f26a326e2437fd,
-    type: 3}
-  m_PrefabInstance: {fileID: 815550928}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1636572264 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8070356965213402766, guid: b0ddf780db5a34310a72f655b6bd227a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1787923616}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1787923616
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 277399949}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 8070356965213402766, guid: b0ddf780db5a34310a72f655b6bd227a,
         type: 3}
@@ -458,12 +405,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ddf780db5a34310a72f655b6bd227a, type: 3}
---- !u!4 &1964602100 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2489881748139800955, guid: 459e1f4e4618d411fb7c40e7ff33792f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1211229305}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &387044698196678934
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,7 +572,7 @@ Transform:
   - {fileID: 4183280284711003383}
   - {fileID: 2711279712917503276}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3799230375547153665
 MeshFilter:
