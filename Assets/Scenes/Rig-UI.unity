@@ -5412,6 +5412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2042051416}
   - component: {fileID: 2042051417}
+  - component: {fileID: 2042051418}
   m_Layer: 0
   m_Name: Setting 2 Toggle (1)
   m_TagString: Untagged
@@ -5512,7 +5513,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2042051418}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
+--- !u!114 &2042051418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042051415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf18c520d2b24c5385f6c9873b50a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftRay: {fileID: 321769316}
+  rightRay: {fileID: 1649069477}
 --- !u!1 &2043233978
 GameObject:
   m_ObjectHideFlags: 0
