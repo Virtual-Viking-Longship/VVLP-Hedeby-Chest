@@ -610,6 +610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: watersubdivisionsheet
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ef9963e496d56cf429946c60b4cc75e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
