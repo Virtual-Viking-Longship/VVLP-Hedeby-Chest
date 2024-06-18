@@ -26,7 +26,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 0
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
@@ -114,12 +114,12 @@ Material:
     - _Noise2Size: 0.18
     - _Noise2size: 0.34
     - _Noise3Size: 0.74
-    - _NormalSTR: 0.26
+    - _NormalSTR: 0.39
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SMOOTHNESS: 2.9
+    - _SMOOTHNESS: 1
     - _STR: 0.56
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -136,7 +136,7 @@ Material:
     - _scale: 0.06
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorDark: {r: 0.008603243, g: 0.06213627, b: 0.5471698, a: 0}
+    - _ColorDark: {r: 0.05490197, g: 0.26076686, b: 0.39607844, a: 0}
     - _ColorFoam: {r: 1, g: 1, b: 1, a: 0}
     - _ColorLight: {r: 0.7012578, g: 0.8008386, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
