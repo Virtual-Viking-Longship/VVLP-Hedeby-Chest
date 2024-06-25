@@ -4,19 +4,22 @@ using UnityEngine;
 
 public class FollowItem : MonoBehaviour
 {
-    public Transform item;
+    public MeshRenderer targetObject;
+    private GameObject headset;
     public float smoothSpeed = 0.125f;
     // Start is called before the first frame update
     void Start()
     {
-        
+        headset = GameObject.FindGameObjectWithTag("MainCamera").gameObject;
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        Vector3 itemPos = item.transform.position + new Vector3(0,0.05f,-0.05f);
+        Vector3 offset = (this.transform.position - headset.transform.position).normalized;
+        Vector3 itemPos = targetObject.bounds.center + new Vector3(0, 0.1f, 0f) + offset * .1f;
         Vector3 smoothPos = Vector3.Lerp(transform.position, itemPos, smoothSpeed);
         transform.position = smoothPos;
+        transform.rotation = Quaternion.LookRotation(offset);
     }
 }
