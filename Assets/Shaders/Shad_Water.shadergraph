@@ -7244,7 +7244,7 @@
     "m_StageCapability": 3,
     "m_Value": {
         "x": 20.0,
-        "y": 100.0
+        "y": 500.0
     },
     "m_DefaultValue": {
         "x": 0.0,
