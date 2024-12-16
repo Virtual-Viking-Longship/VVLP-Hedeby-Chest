@@ -9475,7 +9475,7 @@ MonoBehaviour:
   _data: {fileID: 0}
   _pointableElement: {fileID: 466374848}
   _rigidbody: {fileID: 466374850}
-  _physicsGrabbable: {fileID: 0}
+  _physicsGrabbable: {fileID: 466374849}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
     _positionRotationWeight: 0.8
