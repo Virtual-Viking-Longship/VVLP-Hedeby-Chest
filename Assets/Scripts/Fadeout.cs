@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class fadeout : MonoBehaviour
+public class Fadeout : MonoBehaviour
 {
     public float fadetime = 1f;
     public UnityEngine.UI.Image mask;
