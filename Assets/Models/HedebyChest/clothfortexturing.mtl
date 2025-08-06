@@ -1,0 +1,88 @@
+# Blender 4.1.1 MTL File: 'chestfilled.blend'
+# www.blender.org
+
+newmtl Material.002
+Ns 156.634186
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd C:/Users/parsonj/VVLP-Hedeby-Chest/Assets/Textures/fur1.png
+map_d C:/Users/parsonj/VVLP-Hedeby-Chest/Assets/Textures/fur1.png
+map_Bump -bm 1.000000 C:/Users/parsonj/VVLP-Hedeby-Chest/Assets/Textures/fur1normal.png
+
+newmtl Material.003
+Ns 96.831879
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd C:/Users/parsonj/VVLP-Hedeby-Chest/Assets/Textures/fur2.png
+map_d C:/Users/parsonj/VVLP-Hedeby-Chest/Assets/Textures/fur2.png
+map_Bump -bm 1.000000 C:/Users/parsonj/VVLP-Hedeby-Chest/Assets/Textures/fur2normal.png
+
+newmtl Material.004
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd G:/Shared drives/Virtual Viking Longship/Models-Assets/HedebyChest/beadstexturing_Beads_AlbedoTransparency.png
+map_Bump -bm 1.000000 G:/Shared drives/Virtual Viking Longship/Models-Assets/HedebyChest/beadstexturing_Beads_Normal.png
+
+newmtl Material.005
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd G:/Shared drives/Virtual Viking Longship/Models-Assets/PurseBeads/beadstexturepng.png
+map_Bump -bm 2.000000 G:/Shared drives/Virtual Viking Longship/Models-Assets/PurseBeads/beadsnormal.png
+
+newmtl Material.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Bump -bm 1.700000 C:/Users/parsonj/VVLP-Hedeby-Chest/Assets/Textures/Fabric_normal.png
+
+newmtl Material.007
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.008
+Ns 250.000000
+Ka 0.704545 0.704545 0.704545
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd G:/Shared drives/Virtual Viking Longship/Models-Assets/Coins/Textures/Coinage.psd
+
+newmtl beads.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/parsonj/VVLP-Hedeby-Chest/Assets/Textures/pouchlq_LeatherPouch_AlbedoTransparency.png
+map_Bump -bm 1.000000 C:/Users/parsonj/VVLP-Hedeby-Chest/Assets/Textures/pouchlq_LeatherPouch_Normal.png
